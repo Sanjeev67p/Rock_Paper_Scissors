@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nerko One', cursive;
+    color: #2a2c45;
+}
+
+body{
+    background-color: #ffdecc;
+    display:grid;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+    font-size: 4vmin;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    height: 20vmin;
+}
+
+
+.content{
+    font-size: 3.5vmin;
+    text-align: center;
+    display: grid;
+    align-items: flex-start;
+    justify-content:center;
+    background-color: #FBCEB1;
+    width: 100vmin;
+    height: 50vmin;
+    border-radius: 1vmin;
+}
+
+.results{
+    text-align: start;
+    font-weight: 600;
+    padding-left: 10vmin;
+    padding-top: 5vmin;
+    height: 40vmin;
+}
+
+.choices{
+    display: flex;
+    gap: 10vmin;
+    
+}
+
+
+#rock{
+    background: url('Rock.png'
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+    
+}
+
+#rock:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+#paper{
+    background: url('paper.png'
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+}
+
+#paper:hover{
+    transform: scale(1.2);
+    transition:300ms;
+}
+
+#scissors{
+    background: url('Scissors.png'
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+}
+
+#scissors:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+#rock, #paper, #scissors {
+    width: 20vmin;
+    height: 27.5vmin; 
+    border-radius: 1vmin;
+    border: 2vmin;
+
+}
+
+.img{
+    width: 19.4vmin;
+    height: 26.2vmin;
+    border-radius: 1vmin;
+    background-color: #FBCEB1;
+  
+}
+
+.computer-choice, .your-choice, .result{
+    
+    margin-bottom: 3vmin;
+    font-size: 4vmin;
+}
